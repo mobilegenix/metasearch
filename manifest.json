@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "MetaSearch",
+  "version": "1.0",
+  "description": "Query ChatGPT, Claude, and Gemini simultaneously from any webpage.",
+  "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/public/index.html",
+    "default_icon": "icons/icon.png"
+  },
+  "options_page": "options/public/index.html",
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
