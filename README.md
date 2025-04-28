@@ -1,6 +1,6 @@
 # MetaSearch Chrome Extension
 
-> 🔥 Query ChatGPT (OpenAI), Claude (Anthropic), and Gemini (Google) **simultaneously** from any webpage with **MetaSearch**.  
+> Query ChatGPT (OpenAI), Claude (Anthropic), and Gemini (Google) **simultaneously** from any webpage with **MetaSearch**.  
 > Highlight, search, or type — instantly compare responses across top AI models.
 
 ---
@@ -33,10 +33,10 @@
    npm run build
 
 4. **Load into Chrome**
-- Open ```Chrome://extensions
+- Open ```Chrome://extensions```
 - Enable **Developer mode**
 - Click **Load unpacked**
-- Select the ```/dist
+- Select the ```/dist```
 
 5. **Configure Settings** 
 - Open MetaSearch popup
@@ -48,7 +48,7 @@
 ----
 
 ## 📁 Project Structure
-
+```
 metasearch-extension/
 ├── manifest.json
 ├── background.js
@@ -84,7 +84,7 @@ metasearch-extension/
 ├── .gitignore
 ├── package.json
 └── vite.config.js
-
+```
 ---
 
 ## 🧠 Roadmap
@@ -102,6 +102,7 @@ metasearch-extension/
 
  ## 🤝 Contributing
 We welcome contributors!
+
 Please check CONTRIBUTING.md for guidelines.
 
 ---
