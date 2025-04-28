@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { queryLLMs } from "./api/queryLLMs";
 import LLMResponseCard from "./components/LLMResponseCard";
 import Spinner from "./components/Spinner";
-import { initializeTheme } from "../../../utils/theme";
 import "./styles/popup.css";
 
 function App() {
@@ -43,9 +42,6 @@ function App() {
         setQuery(result.selectedText);
       }
     });
-
-    // Initialize Theme
-    initializeTheme();
   }, []);
 
   return (
