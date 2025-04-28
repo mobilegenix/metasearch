@@ -6,7 +6,7 @@ import ReactDOM from "react-dom/client";
 import ReactDOMServer from "react-dom/server";
 import { createRoot } from "react-dom/client";
 import "../styles/options.css";
-import { setTheme } from "../../popup/src/utils/theme"; // <-- import if you want live preview on settings change
+import { setTheme } from "../../../utils/theme"; // <-- import if you want live preview on settings change
 
 function Options() {
   const [apiKeys, setApiKeys] = useState({
