@@ -1,15 +1,14 @@
 {
-  "name": "metasearch chrome-extension",
-  "description": "Query ChatGPT, Claude, and Gemini simultaneously from any webpage.",
-  "type": "module",
-  "license": "MIT",
-  "author": "Lindon Thomas",
-  "homepage": "https://theinifinitemachine.net",
+  "name": "metasearch-extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension to query ChatGPT, Claude, and Gemini simultaneously with customizable models and themes.",
+  "author": "mobilegenix",
+  "homepage": "https://github.com/mobilegenix/metasearch-extension#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/mobilegenix/metasearch-extension.git"
   },
-  "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "vite",
