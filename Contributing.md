@@ -37,7 +37,7 @@ Your ideas, fixes, features, and feedback are extremely welcome.
 Here are some good starting points:
 
 - [ ] Add Query History tab
-- [ ]Dark Mode Enhancements
+- [ ] Dark Mode Enhancements
 - [ ] Groq / Mistral model integration
 - [ ] Animated Theme Toggle with Icons
 
@@ -53,12 +53,14 @@ Here are some good starting points:
 ---
 
 ## Development Setup
+
    ```bash
    npm install
    npm run dev     # Development server
    npm run build   # Production build into /dist/
+```
 
-Then load ```/dist in ```chrome://extensions (Developer Mode).
+Then load ```/dist``` in ```chrome://extensions``` (Developer Mode).
 
 ---
 
